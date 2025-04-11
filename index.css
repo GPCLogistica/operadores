@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pixelify+Sans:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  object-fit: contain;
+}
+
+#contenedor_principal {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 525px;
+  border: 1px solid #999;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px 1px #333;
+}
+
+#header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 15.5%;
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+}
+
+#cuadro_azul {
+  position: absolute;
+  left: -25%;
+  width: 55%;
+  height: 200%;
+  background-color: #0b2241;
+  transform: rotate(-60deg);
+  z-index: -1;
+}
+
+#contenedor_logo {
+  display: inline-block;
+  width: 30%;
+  height: 85%;
+}
+
+#logo {
+  margin-left: 15%;
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: fill;
+}
+
+#tarjeta_text {
+  margin-left: 10%;
+  font-size: 1.15em;
+  text-align: center;
+  color: #114E97;
+}
+
+#linea_verde {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7%;
+  background-color: #029770;
+}
+
+#contenedor_nombre_foto {
+  display: flex;
+  gap: 3%;
+  width: 100%;
+  height: 23.5%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#contenedor_perfil {
+  width: 28%;
+  height: 100%;  
+  margin-left: 2%;
+}
+
+#foto_perfil {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 3px;
+}
+
+#contenedor_nombre {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 2;
+  gap: 5%;
+  box-sizing: border-box;
+}
+
+#nombre {
+  font-size: 1.5em;
+  color: #114E97;
+  margin: 0;
+}
+
+#tipo {
+  font-size: 0.75em;
+  color: #114E97;
+}
+
+#contenedor_datos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 49%;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  gap: 4%;
+  width: 40%;
+  height: 100%;
+  font-size: .85em;
+}
+
+.campo {
+  color: #777
+}
+
+#columna2 {
+  margin-top: -13%;
+  font-size: 1em;
+}
+
+#contenedor_qr {
+  width: 50%;
+}
+
+#qr {
+  width: 100%;
+  object-fit: contain;
+}
+
+footer {
+  display: flex;
+  height: 10%;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: end;
+}
+
+#cont_iso {
+  width: 50%;
+  height: 100%;
+}
+
+#iso {
+  width: 100%;
+  height: 100%;
+}
+
+#cont_programa {
+  width: 50%;
+  height: 100%;
+}
+
+#programa {
+  width: 100%;
+  height: 100%;
+}
